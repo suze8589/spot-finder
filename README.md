@@ -2,7 +2,7 @@
 
 Spot Finder is a simple web application that allows users to search for cities or countries and view featured destinations. The application showcases destinations using cards with images and descriptions. The project was built using JavaScript, HTML, and CSS, with Vite as the development environment.
 
-![Spot Finder Screenshot](spot-finder/spot-finder/public/screenshot.png)
+![Spot Finder Screenshot](./spot-finder/public/screenshot.png)
 
 ## Features
 
