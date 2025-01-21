@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <title>Spot Finder</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+
+
+  <body>
+    <div class="main-container">
+      <h1>Spot Finder</h1>
+      <div class="search-bar">
+        <input placeholder="Search for city or Country" type="text" id="searchInput">
+      </div>
+
+      
+
+      <div class="cards" id="results">
+        <div class="card">
+          <h2>Seville</h2>
+          <img alt="image 1" src="https://www.edreams.pt/blog/wp-content/uploads/sites/4/2015/10/ponte-em-pra%C3%A7a-espanha-de-sevilha.jpg.webp"/>
+          <p>Spain</p>
+        </div>
+
+        <div class="card">
+          <h2>Frankfurt</h2>
+          <img alt="image 2" src="https://www.visitfrankfurt.travel/fileadmin/Mediendatenbank/Skyline/Frankfurt-Abendrot-Sonnenuntergang-Main.jpg"/>
+          <p>Germany</p>
+        </div>
+
+        <div class="card">
+          <h2>Porto</h2>
+          <img alt="image 3" src="https://viagemegastronomia.cnnbrasil.com.br/wp-content/uploads/sites/5/2021/01/porto-portugal-guia.jpg"/>
+          <p>Portugal</p>
+        </div>
+
+        <div class="card">
+          <h2>Berlin</h2>
+          <img alt="image 4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Museumsinsel_Berlin_Juli_2021_1_%28cropped%29.jpg/800px-Museumsinsel_Berlin_Juli_2021_1_%28cropped%29.jpg"/>
+          <p>Germany</p>
+        </div>
+
+        <div class="card">
+          <h2>Lisbon</h2>
+          <img alt="image 5" src="https://images.musement.com/cover/0042/18/lisbon_header-4117128.jpeg"/>
+          <p>Portugal</p>
+        </div>
+
+        <div class="card">
+          <h2>Braga</h2>
+          <img alt="image 6" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/8b/10/c6/20170823-192600-largejpg.jpg?w=1200&h=700&s=1"/>
+          <p>Portugal</p>
+        </div>
+
+        <div class="card">
+          <h2>Madrid</h2>
+          <img alt="image 7" src="https://portosecreto.co/wp-content/uploads/2023/04/madrid-capital-o-que-visitar-unsplash.jpg"/>
+          <p>Spain</p>
+        </div>
+
+        <div class="card">
+          <h2>Barcelona</h2>
+          <img alt="image 8" src="https://img.static-kl.com/images/media/BC3943CA-CD85-4A52-ABE496DAB90E33B4"/>
+          <p>Spain</p>
+        </div>
+
+        <div class="card">
+          <h2>Paris</h2>
+          <img alt="image 5" src="https://images.musement.com/cover/0042/18/lisbon_header-4117128.jpeg"/>
+          <p>France</p>
+        </div>
+
+        <div class="card">
+          <h2>Athens</h2>
+          <img alt="image 6" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/8b/10/c6/20170823-192600-largejpg.jpg?w=1200&h=700&s=1"/>
+          <p>Greece</p>
+        </div>
+
+        <div class="card">
+          <h2>London</h2>
+          <img alt="image 7" src="https://portosecreto.co/wp-content/uploads/2023/04/madrid-capital-o-que-visitar-unsplash.jpg"/>
+          <p>United Kingdom</p>
+        </div>
+
+        <div class="card">
+          <h2>Amsterdam</h2>
+          <img alt="image 8" src="https://cdn.britannica.com/30/180130-138-4FC01CDD/Overview-Amsterdam.jpg?w=800&h=450&c=crop"/>
+          <p>Netherlands</p>
+        </div>
+
+      </div>
+
+      <div class="pagination">
+        <span id="prev-page"><i class="fas fa-arrow-circle-left"></i></span>
+        <a href="#" class="current-page" id="page-number" data-page="1"></a> 
+        <span id="next-page"><i class="fas fa-arrow-circle-right"></i></span>
+        
+      </div>
+
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+
+</html>
